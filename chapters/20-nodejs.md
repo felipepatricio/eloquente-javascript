@@ -148,7 +148,7 @@ algum erro (qualquer outro código).
 Para encontrar os argumentos de linha de comando recebidos pelo seu script, você
 pode ler `process.argv`, que é um _array_ de _strings_. Note que também
 estarão inclusos o nome dos comandos `node` e o nome do seu script, fazendo
-com que os argumentos começem na posição 2. Se `showargv.js` contém somente
+com que os argumentos comecem na posição 2. Se `showargv.js` contém somente
 o _statement_ `console.log(process.argv)`, você pode rodá-lo dessa forma:
 
 ```
